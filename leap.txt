@@ -1,0 +1,10 @@
+#!/bin/bash
+echo enter a year
+read year
+rem=$(( $year % 4))
+if [ $rem -eq 0 ]
+then
+echo it is a leap year
+else
+echo it is not a leap year
+fi
